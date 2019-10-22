@@ -12,3 +12,11 @@
 */
 
 Route::get('/','IndexController@index');
+
+Auth::routes();
+
+Route::middleware('auth')->prefix('administrator')->group(function (){
+
+    Route::get('/admin', 'HomeController@index')->name('admin');
+    Route::resource('/setting', 'SettingController');
+});

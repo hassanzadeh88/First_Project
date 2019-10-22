@@ -6,12 +6,12 @@
         </button>
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" >
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" text-white href="#">about</a>
+                    <a class="nav-link text-white" href="#">about</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">gallery</a>
