@@ -29,10 +29,10 @@
                         <!-- Links -->
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="{{url('/administrator/setting')}}">Setting</a>
+                                <a class="nav-link" href="{{url('/administrator/setting/create')}}">Setting</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Slider</a>
+                                <a class="nav-link" href="{{url('/administrator/slider/create')}}">Slider</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">About</a>

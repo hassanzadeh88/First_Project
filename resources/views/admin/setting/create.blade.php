@@ -4,11 +4,10 @@
 
     <div class="col-6 offset-3 mt-3">
 
-        <div class="col-6 offset-3 mt-2 mb-2">
-            <section class="bg-info text-center">
+
                 @include('admin.errors')
-            </section>
-        </div>
+
+
 
         <form action="{{route('setting.store')}}" method="post">
             @csrf
