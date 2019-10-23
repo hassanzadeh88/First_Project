@@ -4,8 +4,18 @@
             <h1 class="text-center text-capitalize">contact us</h1>
             <section class="borderContact mb-5"></section>
             <section class="row ml-0 mr-0">
+
                 <section class="col-8 offset-2">
-                    <form action="" method="post">
+                    <section>
+                        @if(session('store'))
+                            <div class="col-md-6 offset-3 mt-2 mb-2 ">
+                                <div class="alert bg-info text-dark text-center"><h6>{{session('store')}}</h6></div>
+                            </div>
+                        @endif
+                    </section>
+                    @include('admin.errors')
+                    <form action="{{route('contact.data')}}" method="post">
+                        @csrf
                         <section class="form-group">
                             <label for="fullname">fullname</label>
                             <input type="text" name="fullname" placeholder="please enter fullName?"

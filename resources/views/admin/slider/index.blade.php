@@ -50,11 +50,12 @@
             @endforeach
             <tr>
 
-                <td colspan="6">{{$slider->links()}}</td>
+                <td colspan="7">{{$slider->links()}}</td>
 
             </tr>
             </tbody>
         </table>
+        <button class="btn btn-sm btn-info"><a href="{{route('slider.create')}}">come back to create</a></button>
     </div>
 
 
