@@ -38,7 +38,7 @@
                                 <a class="nav-link" href="{{url('/administrator/about/create')}}">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Gallery</a>
+                                <a class="nav-link" href="{{url('/administrator/gallery/create')}}">Gallery</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
